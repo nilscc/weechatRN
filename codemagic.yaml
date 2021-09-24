@@ -1,6 +1,7 @@
 workflows:
   all:
     environment:
+      node: latest
       npm: latest
     scripts:
       - npm install yarn
