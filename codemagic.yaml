@@ -8,3 +8,5 @@ workflows:
       - yarn global add expo-cli
       - yarn install
       #- yarn start
+    artifacts:
+      - dist/
