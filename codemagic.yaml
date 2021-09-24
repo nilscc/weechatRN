@@ -1,5 +1,7 @@
 workflows:
   all:
+    environment:
+      npm: latest
     scripts:
       - npm install -g yarn
       - yarn global add expo-cli
