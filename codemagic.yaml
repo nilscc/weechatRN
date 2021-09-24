@@ -7,4 +7,4 @@ workflows:
       #- npm install yarn
       - yarn global add expo-cli
       - yarn install
-      - yarn start
+      #- yarn start
