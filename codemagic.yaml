@@ -3,8 +3,8 @@ workflows:
     environment:
       node: latest
       npm: latest
+      yarn: latest
     scripts:
-      - npm install yarn
       - yarn global add expo-cli
       - yarn install
       - yarn start
